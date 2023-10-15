@@ -384,5 +384,5 @@ Feedback
 ========
 
 Please let me know what you think about this way of coding/documenting?
-Do you like my way of writting literate Haskell?
+Do you like my way of writing literate Haskell?
 And the explanation about my implementation of a Sudoku solver?

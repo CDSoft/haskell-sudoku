@@ -412,22 +412,22 @@ Let’s try to solve the `easy` Sudoku grid.
     4 3 8 | 5 2 6 | 9 1 7
     7 9 6 | 3 1 8 | 4 5 2
 
-    CPU time:   0.61s
+    CPU time:   0.59s
 
 After a few optimizations, the compiled version is pretty fast:
 
 | Grid   | Time  |
 |:-------|:------|
-| easy   | 0.64s |
-| hard   | 1.09s |
-| worst1 | 4.36s |
-| worst2 | 0.07s |
+| easy   | 0.56s |
+| hard   | 1.02s |
+| worst1 | 4.05s |
+| worst2 | 0.06s |
 | worst3 | 0.04s |
 | worst4 | 0.04s |
 
 Tests made on a *Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz* powered by
 *Fedora Linux 38* and *The Glorious Glasgow Haskell Compilation System,
-version 9.2.5*.
+version 9.2.7*.
 
 # Source
 
@@ -436,5 +436,5 @@ The Haskell source code is here: [sudoku.lhs](sudoku.lhs)
 # Feedback
 
 Please let me know what you think about this way of coding/documenting?
-Do you like my way of writting literate Haskell? And the explanation
+Do you like my way of writing literate Haskell? And the explanation
 about my implementation of a Sudoku solver?
